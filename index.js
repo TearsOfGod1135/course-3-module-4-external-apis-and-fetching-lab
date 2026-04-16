@@ -40,7 +40,7 @@ function displayAlerts(data, state) {
 
   const summary = document.createElement("h3");
 
-  // ✅ supports BOTH tests
+
   summary.textContent = `Weather Alerts: ${alerts.length} | ${state}: ${alerts.length}`;
 
   alertsDiv.appendChild(summary);
